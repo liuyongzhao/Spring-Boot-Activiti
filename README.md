@@ -1,8 +1,7 @@
 #spring-boot-activiti
 说明:只是一个演示项目.
-1. 流程图的设计(join.bpmn20.xml)
+## 1. 流程图的设计(join.bpmn20.xml)
 ```xml
-
 <?xml version='1.0' encoding='UTF-8'?>
 <definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
@@ -36,8 +35,9 @@
 	</process>
 </definitions>
 ```
-2. 程序的主入口
-```java
+##2. 程序的主入口###
+
+```
 import com.fengye.example.dao.CompRepository;
 import com.fengye.example.dao.PersonRepository;
 import com.fengye.example.model.Comp;
@@ -90,10 +90,11 @@ public class ActivitiApplication {
 		} ;
 	}
 }
+```
+## 3. 流程的执行过程
+
 
 ```
-3. 流程的执行过程
-```java
 package com.fengye.example.controller;
 
 
@@ -103,7 +104,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.List;  
 
 @RestController
 public class MyRestController {
