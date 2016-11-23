@@ -1,7 +1,8 @@
 #spring-boot-activiti
 说明:只是一个演示项目.
 1. 流程图的设计(join.bpmn20.xml)
-```
+```xml
+
 <?xml version='1.0' encoding='UTF-8'?>
 <definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
@@ -51,9 +52,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-/**
- * Created by jery on 2016/11/23.
- */
 
 @SpringBootApplication
 @ComponentScan("com.fengye.example")
@@ -98,9 +96,6 @@ public class ActivitiApplication {
 ```java
 package com.fengye.example.controller;
 
-/**
- * Created by jery on 2016/11/23.
- */
 
 import com.fengye.example.service.ActivitiService;
 import org.activiti.engine.task.Task;
