@@ -1,5 +1,6 @@
 
 # Acticiti使用方法学习
+tips:此项目需配置相应的数据库，具体见下文。
 具体的Activiti知识学习笔记见印象笔记，链接如下[Activiti知识学习](https://app.yinxiang.com/shard/s48/nl/13235430/f1fb802b-5ace-4340-85d3-f1763100561f)
 #Spring-Boot
 Spring Boot是一个应用框架，可以轻松的创建，独立的运行。提倡约定大于配置，如在Maven项目中增加项目依赖spring-boot-starters-basic，
