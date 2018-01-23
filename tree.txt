@@ -1,0 +1,70 @@
+卷 工作空间 的文件夹 PATH 列表
+卷序列号为 0000-7186
+G:.
+│  .classpath
+│  .gitignore
+│  .ignore
+│  .project
+│  pom.xml
+│  README.md
+│  tree.txt
+│  
+├─.bpmn
+│  └─src
+│      └─main
+│          └─resources
+│              └─processes
+│                      join.bpmn2d
+│                      
+├─.settings
+│      org.eclipse.core.resources.prefs
+│      org.eclipse.jdt.core.prefs
+│      org.eclipse.m2e.core.prefs
+│      
+├─src
+│  └─main
+│      ├─java
+│      │  │  ActivitiApplication.java
+│      │  │  
+│      │  └─com
+│      │      └─fengye
+│      │          └─example
+│      │              ├─controller
+│      │              │      MyRestController.java
+│      │              │      
+│      │              ├─dao
+│      │              │      CompRepository.java
+│      │              │      PersonRepository.java
+│      │              │      
+│      │              ├─model
+│      │              │      Comp.java
+│      │              │      Person.java
+│      │              │      
+│      │              └─service
+│      │                      ActivitiService.java
+│      │                      JoinService.java
+│      │                      
+│      └─resources
+│          │  application.properties
+│          │  
+│          └─processes
+│                  join.bpmn
+│                  join.png
+│                  
+└─target
+    └─classes
+        │  application.properties
+        │  
+        ├─META-INF
+        │  │  MANIFEST.MF
+        │  │  
+        │  └─maven
+        │      └─com.fengye.example
+        │          └─spring-boot-activiti
+        │                  pom.properties
+        │                  pom.xml
+        │                  
+        └─processes
+                join.bpmn
+                join.png
+                

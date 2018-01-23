@@ -1,8 +1,9 @@
-import com.fengye.example.dao.CompRepository;
-import com.fengye.example.dao.PersonRepository;
-import com.fengye.example.model.Comp;
-import com.fengye.example.model.Person;
-import com.fengye.example.service.ActivitiService;
+import com.zhao.example.dao.CompRepository;
+import com.zhao.example.dao.PersonRepository;
+import com.zhao.example.model.Comp;
+import com.zhao.example.model.Person;
+import com.zhao.example.service.ActivitiService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -12,14 +13,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-/**
- * Created by jery on 2016/11/23.
- */
+
 
 @SpringBootApplication
-@ComponentScan("com.fengye.example")
-@EnableJpaRepositories("com.fengye.example.dao")
-@EntityScan("com.fengye.example.model")
+@ComponentScan("com.zhao.example")
+@EnableJpaRepositories("com.zhao.example.dao")
+@EntityScan("com.zhao.example.model")
 public class ActivitiApplication {
 	@Autowired
 	private CompRepository compRepository;
